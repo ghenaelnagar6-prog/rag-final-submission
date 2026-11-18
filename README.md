@@ -4,23 +4,18 @@ An Arabic-friendly question-answering assistant that answers first-aid questions
 
 **🔗 Live demo:** https://ghena-first-aid-rag.streamlit.app
 
-## Screenshots
 
-**Arabic question**: "أعراض الكسر" (symptoms of a fracture)
+**Arabic question**: "تعريف بلع اللسان" (symptoms of a fracture)
 
-(الصورة العربي هنا)
+<img width="474" height="296" alt="لقطة شاشة 2026-11-18 145519" src="https://github.com/user-attachments/assets/e5a6996b-5aae-4a21-814c-43a225deac8d" />
 
 **English question**: "What are the symptoms of a fracture?"
 
-(الصورة الإنجليزي هنا)
-
-*The assistant answers in the user's language and cites the part of the book it used.*<img width="663" height="479" alt="لقطة شاشة 2026-11-18 142004" src="https://github.com/user-attachments/assets/3f73c431-2823-4303-b1f1-59357c8013f4" />
-![Uploading لقطة شاشة 2026-11-18 142004.png…]()
-<img width="523" height="407" alt="لقطة شاشة 2026-11-18 144711" src="https://github.com/user-attachments/assets/ee683e6e-d206-4cf5-8e8a-16b3ce4f3c33" />
 
 ## How it works
 
-The project is a Retrieval-Augmented Generation (RAG) pipeline:
+The project is a Retrieval-Augmented Generation (RAG) pipeline:<img width="523" height="407" alt="لقطة شاشة 2026-11-18 144711" src="https://github.com/user-attachments/assets/a38d334d-7e05-477c-a256-83944c026a2e" />
+
 
 1. **Documents**: load the book (`01_documents.py`)
 2. **Preprocessing**: clean the text (`02_preprocessing.py`)
