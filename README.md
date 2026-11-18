@@ -35,8 +35,6 @@ Python · Streamlit · ChromaDB · Sentence-Transformers (`paraphrase-multilingu
 
 Answer accuracy: **96%**.
 
-## Run locally<img width="663" height="479" alt="لقطة شاشة 2026-11-18 142004" src="https://github.com/user-attachments/assets/fcca485e-ab23-48d1-b761-0800f5d38504" />
-
 
 ```bash
 pip install -r requirements.txt
